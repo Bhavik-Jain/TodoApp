@@ -8,7 +8,7 @@ class App extends React.Component{
     this.state = {
       newItem: "",
       list: [] 
-    }
+    };
   }
 
   addItem(todoValue){
